@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="PulseIconView">
+       <attr name="showIconText" format="boolean" />
+   </declare-styleable>
+   <declare-styleable name="LiveView">
+        
+   </declare-styleable>
+   <declare-styleable name="StatsView">
+        
+   </declare-styleable>
+   <declare-styleable name="PieChartView">
+        
+   </declare-styleable>
+   <declare-styleable name="PieChartLegendView">
+        
+   </declare-styleable>
+</resources>

@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="56dp"
+            android:minWidth="56dp">
+
+    <ImageView
+        android:id="@+id/heart_image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/desc_heart_icon"
+        android:src="@drawable/heart_icon" />
+
+    <ProgressBar
+        android:id="@+id/heart_progress"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/heart_text"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:text="@string/action_reading"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</FrameLayout>

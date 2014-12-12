@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Heart Rate Analyser</string>
+    <string name="connect_hrm">Connect HRM</string>
+    <string name="device_not_connected">No device connected&#8230;</string>
+    <string name="unknown_device">Unknown device</string>
+    
+    <string name="action_reading">000</string>
+    <string name="action_device">Device</string>
+    <string name="action_devices">Devices</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_refresh">Refresh</string>
+    
+    <string name="preference_file_key">uk.co.darkerwaters.heartrateanalysis</string>
+    <string name="saved_device_name">DEVICE_NAME</string>
+    <string name="saved_device_address">DEVICE_ADDR</string>
+    
+    <string name="desc_heart_icon">Heart rate</string>
+    
+    <string name="available_devices">Available devices:</string>
+    <string name="history">Historic data</string>
+    <string name="connectedDevice">Connected Device:</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="history_reset">Reset history</string>
+    <string name="history_reset_confirm">Are you sure you want to rest all data for $DATA$, this action is not revearsable.</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/uk.co.darkerwaters.heartrateanalyser"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="uk.co.darkerwaters.heartrateanalyser.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/home_view_conteiner"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/view_device" >
+
+        <uk.co.darkerwaters.heartrateanalyser.LiveView
+            android:id="@+id/view_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <uk.co.darkerwaters.heartrateanalyser.StatsView
+            android:id="@+id/view_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </uk.co.darkerwaters.heartrateanalyser.StatsView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/view_device"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/device_not_connected"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>
